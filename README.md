@@ -20,7 +20,7 @@ POST      |/albums/:albumid                     | add image to album           |
 DELETE    |/albums/:albumid                     | delete album and images      | logged users
 
 
-![Index page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/1.png){:width="50%"}
+![Index page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/1.png)
 
 Login and signup forms have data validation.
 
