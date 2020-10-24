@@ -1,6 +1,11 @@
 # node-express-image-hosting-service
 Image hosting service. Users can create albums and upload images.
 
+### Express, MongoDB
+- navigate to project directory
+- run npm install
+- node index.js
+
 Method | URL | description | access
 -------|---- | ------------|--------
 GET       |/                                    | show index page              | all
