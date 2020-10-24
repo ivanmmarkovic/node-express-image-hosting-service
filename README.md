@@ -26,8 +26,19 @@ Login and signup forms have data validation.
 ![Sign up page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/4.png)
 
 New album is created with Ajax, and if request was successful, link for created album is added to albums page.
+
+![Albums page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/5.png)
+
 User can't create albums with same name.
 
-User can upload only images. Album can't contains images with same titles.
+![Albums page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/6.png)
+
+User can upload only images. 
+
+![Albums page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/7.png)
+
+Album can't contains images with same titles.
+
+![Albums page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/8.png)
 
 When user delete album, images will be deleted too.
