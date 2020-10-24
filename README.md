@@ -19,6 +19,12 @@ DELETE    |/albums/:albumid                     | delete album and images      |
 
 Login and signup forms have data validation.
 
+![Sign up page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/2.png)
+
+![Sign up page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/3.png)
+
+![Sign up page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/4.png)
+
 New album is created with Ajax, and if request was successful, link for created album is added to albums page.
 User can't create albums with same name.
 
