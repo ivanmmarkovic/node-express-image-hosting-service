@@ -14,6 +14,8 @@ GET       |/albums/:albumid                     | get albums with images       |
 POST      |/albums/:albumid                     | add image to album           | logged users
 DELETE    |/albums/:albumid                     | delete album and images      | logged users
 
+Login and signup forms have data validation.
+
 New album is created with Ajax, and if request was successful, link for created album is added to albums page.
 User can't create albums with same name.
 
