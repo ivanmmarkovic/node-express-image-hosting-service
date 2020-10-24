@@ -14,6 +14,9 @@ GET       |/albums/:albumid                     | get albums with images       |
 POST      |/albums/:albumid                     | add image to album           | logged users
 DELETE    |/albums/:albumid                     | delete album and images      | logged users
 
+
+![Index page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/1.png)
+
 Login and signup forms have data validation.
 
 New album is created with Ajax, and if request was successful, link for created album is added to albums page.
