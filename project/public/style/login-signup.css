@@ -1,0 +1,66 @@
+.app-container-login-signup{
+    margin: 0 auto;
+    padding-top: 10vh;
+    max-width: 100%;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input {
+    color: lightgray;
+    font-weight: 1300;
+}
+
+.error-login-signup {
+    display: inline-flex;
+    border: 3px solid rgb(226, 147, 147);
+    padding: 15px;
+    width: 400px;
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 400;
+    border-radius: 7px;
+}
+
+.app-container-login-signup> h1 {
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.app-container-login-signup> form {
+    padding: 20px;
+    width: 400px;
+    max-width: 100vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 20px 10px -20px #000;
+}
+
+.app-container-login-signup > form > input {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 5px 8px;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.app-container-login-signup > form > button {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 5px 8px;
+    font-size: 1.2em;
+    border: none;
+    color: #fff;
+    background-color: rgb(26, 126, 219);
+    border-radius: 3px;
+    font-weight: 300;
+}
