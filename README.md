@@ -42,3 +42,5 @@ Album can't contains images with same titles.
 ![Albums page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/8.png)
 
 When user delete album, images will be deleted too.
+
+![Albums page](https://raw.githubusercontent.com/ivanmmarkovic/node-express-image-hosting-service/main/project%20images/8.png)
