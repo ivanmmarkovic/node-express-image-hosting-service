@@ -1,0 +1,204 @@
+.app-container-album {
+    margin: 0 auto;
+    padding-top: 20px;
+    max-width: 100%;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.error {
+    visibility: hidden;
+    padding: 5px;
+    width: 400px;
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+.error.visible {
+    visibility: visible;
+    display: inline-flex;
+}
+
+.app-container-album > h1 {
+    margin-top: 10vh;
+    margin-bottom: 10px;
+    font-weight: 400;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container-album > h1 > span {
+    margin-left: 20px;
+    color: crimson;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.app-container-album > form {
+    padding: 20px;
+    width: 400px;
+    max-width: 100vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 20px 10px -20px #000;
+}
+
+.app-container-album > form > input {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 5px 8px;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.app-container-album > form > button {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 5px 8px;
+    font-size: 1.2em;
+    border: none;
+    color: #fff;
+    background-color: rgb(243, 98, 13);
+    border-radius: 3px;
+    font-weight: 300;
+}
+
+.album {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.album > .image-box {
+    color: #000;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30.333%;
+    margin: 10px 1.5%;
+    padding: 30px 25px 30px 25px;
+    box-shadow: 10px 10px 30px -30px #000;
+    transition: box-shadow 1200ms ease-in-out 100ms;
+}
+.album > .image-box:hover {
+    box-shadow: none;
+}
+
+.album > .image-box > img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.album > .image-box > p {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.album > .image-box > span > span {
+    font-weight: 800;
+    color: rgb(243, 98, 13);
+    cursor: pointer;
+}
+
+
+.view-image-modal{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: 100%;
+    background-color: rgba(66, 58, 58, 0.911);
+}
+
+.view-image-modal.visible {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.view-image-modal > img {
+    height: 80%;
+}
+
+.delete-album-modal {
+    padding: 5px;
+    width: 400px;
+    max-width: 100vw;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    overflow: hidden;
+}
+
+.delete-album-modal.visible {
+    display: flex;
+}
+
+.delete-album-modal > * {
+    margin-bottom: 15px;
+}
+
+.delete-album-modal > span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-album-modal > span > button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: crimson;
+    width: 70px;
+    margin-left: 10px;
+}
+
+.delete-album-modal > span > button:nth-child(1) {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+@media all and (max-width: 700px){
+
+    .album > .image-box {
+        width: 45%;
+        margin: 10px 2.5%;
+    }
+}
+
+@media all and (max-width: 500px){
+
+    .album > .image-box {
+        width: 95%;
+        margin: 10px 2.5%;
+    }
+}
+
+
+
+
+
+

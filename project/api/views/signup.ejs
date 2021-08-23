@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title><%= title %></title>
+    <%- include('layouts/links') -%>
+</head>
+<body>
+    <div class="container">
+        <%- include('layouts/navigation') -%>
+        <div class="app-container-login-signup">
+            <h1>Sign up</h1>
+            <form method="POST" action="signup">
+                <input type="text" name="username" placeholder="Username" value="<%= username %>"/>
+                <input type="password" name="password" placeholder="Password" value="<%= password %>"/>
+                <input type="password" name="passwordConfirmed" placeholder="Confirm password" value="<%= passwordConfirmed %>"/>
+                <input type="email" name="email" placeholder="Email" value="<%= email %>"/>
+                <button>Sign up</button>
+                <% if(error){ %>
+                    <p class="error visible"><%= error %></p>
+                <% } else {%>
+                    <p class="error">Some content</p>
+                <% } %>
+            </form>
+        </div>
+    </div>
+    <%- include('layouts/footer') -%>
+</body>
+</html>

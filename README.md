@@ -2,9 +2,12 @@
 Image hosting service. Users can create albums and upload images.
 
 ### Express, MongoDB
-- navigate to project directory
-- run npm install
-- node index.js
+- in project directory run
+    - docker-compose up --build
+- in api directory run
+    - npm install
+    - node index.js
+- Visit [http://localhost:5000](http://localhost:5000)
 
 Method | URL | description | access
 -------|---- | ------------|--------
